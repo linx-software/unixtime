@@ -20,7 +20,7 @@ REST Service that converts a Unixtimestamp to a DateTime and vice versa.
 
 ## Publishing
 
-To publish your own Unixtime service you need to get a [Linx Server](https://linx.software/pricing/)
+Publishing this service requires a [Linx Server](https://linx.software/pricing/)
 
 ## GET Methods
 
