@@ -7,13 +7,14 @@ REST Service that converts a Unixtimestamp to a DateTime and vice versa.
 ## Installation
 
 - Built using Linx 6.1.0 ([https://linx.software](https://linx.software))
-- Download and install the Linx Designer
+- Download and install the Linx Designer [https://linx.software/download-linx/](https://linx.software/download-linx/)
+- Paste the license from the email into the designer
 - Pull the solution folder from the repo
 
 ## Usage
 
-1. Open the UnixTimeService.solution file
-2. Debug the RESTHost service
+1. Open the UnixTimeService.solution file in the Linx 6 Designer
+2. Click "Debug" and "Start" to run the RESTHost service locally
 3. Browse to any of the URL's from the "GET Methods" section below
 4. Use Postman or similar to post the Body Json to the related URL in the "POST Methods" below
 
