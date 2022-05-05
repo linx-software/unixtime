@@ -18,6 +18,10 @@ REST Service that converts a Unixtimestamp to a DateTime and vice versa.
 3. Browse to any of the URL's from the "GET Methods" section below
 4. Use Postman or similar to post the Body Json to the related URL in the "POST Methods" below
 
+## Publishing
+
+To publish your own Unixtime service you need to get a [Linx Server](https://linx.software/pricing/)
+
 ## GET Methods
 
 ### Unix Timestamp to UTC DateTime (yyyy-MM-dd HH:mm:ss) with string response
