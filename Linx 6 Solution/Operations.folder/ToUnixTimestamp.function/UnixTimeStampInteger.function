@@ -1,0 +1,16 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Compiled:Int64",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "DateTimeInput.Subtract(UnixStartDate.ToDateTime(\"yyyy-MM-dd\")).TotalSeconds",
+        "CompiledExpression": "={1}.Subtract(System.DateTime.ParseExact({0},\"yyyy-MM-dd\",null)).TotalSeconds",
+        "Type": "Compiled:Double"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "Result": "Compiled:Int64"
+}

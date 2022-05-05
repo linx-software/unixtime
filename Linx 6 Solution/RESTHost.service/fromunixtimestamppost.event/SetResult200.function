@@ -1,0 +1,37 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Generated:Jjmx",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"HttpContext\":{\"StatusCode\":200}, \"Response200\":{\"Datetime\":{\"LinxExpression\":\"[PARSED]\"}}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "Response200",
+              "Datetime"
+            ],
+            "expression": {
+              "Expression": "FromUnixTimestamp.AddHours(TimeZoneConverterHourInt).ToString(\"yyyy-MM-dd'T'HH:mm:ss\") + TimezoneConverterString",
+              "CompiledExpression": "={2}.AddHours({1}).ToString(\"yyyy-MM-dd'T'HH:mm:ss\")+{0}",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Generated:Jjmx",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:Jjmx"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

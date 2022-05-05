@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "KHh2",
+      "Properties": [
+        {
+          "Id": "Ryoz",
+          "Name": "UnixTimestamp",
+          "Type": "Compiled:Int64",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]
