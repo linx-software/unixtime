@@ -1,23 +1,5 @@
 [
   {
-    "Id": "xgiq",
-    "Name": "DBConnectionString",
-    "Type": "Compiled:String",
-    "Secret": true
-  },
-  {
-    "Id": "EZwA",
-    "Name": "LogTable",
-    "Type": "Compiled:String",
-    "Value": "unixtimelog"
-  },
-  {
-    "Id": "IK4b",
-    "Name": "LogTableRecordLimit",
-    "Type": "Compiled:Int64",
-    "Value": "2000000"
-  },
-  {
     "Id": "vJ2A",
     "Name": "ServiceURI",
     "Type": "Compiled:String",
