@@ -6,9 +6,8 @@ REST Service that converts a Unixtimestamp to a DateTime and vice versa.
 
 ## Installation
 
-- Built using Linx 6.1.0 ([https://linx.software](https://linx.software))
+- Built using Linx 6.4.3 ([https://linx.software](https://linx.software))
 - Download and install the Linx Designer [https://linx.software/download-linx/](https://linx.software/download-linx/)
-- You should receive an email with your license. Paste it into the designer
 - Pull the "Linx 6 Solution" folder from the repo
 
 ## Usage

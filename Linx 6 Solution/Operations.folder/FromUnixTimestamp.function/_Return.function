@@ -1,0 +1,19 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Compiled:DateTime",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "ConversionDateTime",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:DateTime"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "RuntimeCharacteristics": {
+    "IsTerminating": true,
+    "ExecutionPathExecution": "ZeroOrMore"
+  }
+}

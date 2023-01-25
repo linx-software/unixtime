@@ -1,7 +1,7 @@
 {
   "Properties": [
     {
-      "Id": "Source",
+      "Id": "Value",
       "Type": "Generated:XLN2",
       "ValueUsage": "RuntimeRead",
       "Value": {
@@ -20,17 +20,10 @@
         ]
       },
       "ValueType": "Linx.JsonExpression"
-    },
-    {
-      "Id": "Target",
-      "Type": "Generated:XLN2",
-      "ValueUsage": "RuntimeWrite",
-      "Value": {
-        "Expression": "$.Result",
-        "CompiledExpression": "={0}",
-        "Type": "Generated:XLN2"
-      },
-      "ValueType": "Linx.CSharpExpression"
     }
-  ]
+  ],
+  "RuntimeCharacteristics": {
+    "IsTerminating": true,
+    "ExecutionPathExecution": "ZeroOrMore"
+  }
 }

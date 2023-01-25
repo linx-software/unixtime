@@ -1,15 +1,16 @@
 {
   "Properties": [
     {
-      "Id": "Source",
-      "Type": "Generated:br7Q",
+      "Id": "Value",
+      "Type": "Generated:bXoe",
       "ValueUsage": "RuntimeRead",
       "Value": {
-        "ParsedExpression": "{\"HttpContext\":{\"StatusCode\":200}, \"Response200\":{\"LinxExpression\":\"[PARSED]\"}}",
+        "ParsedExpression": "{\"HttpContext\":{\"StatusCode\":200}, \"Response200\":{\"Datetime\":{\"LinxExpression\":\"[PARSED]\"}}}",
         "ExpressionPlaceholders": [
           {
             "typePath": [
-              "Response200"
+              "Response200",
+              "Datetime"
             ],
             "expression": {
               "Expression": "FromUnixTimestamp.ToString(\"yyyy-MM-dd HH:mm:ss\")",
@@ -20,17 +21,10 @@
         ]
       },
       "ValueType": "Linx.JsonExpression"
-    },
-    {
-      "Id": "Target",
-      "Type": "Generated:br7Q",
-      "ValueUsage": "RuntimeWrite",
-      "Value": {
-        "Expression": "$.Result",
-        "CompiledExpression": "={0}",
-        "Type": "Generated:br7Q"
-      },
-      "ValueType": "Linx.CSharpExpression"
     }
-  ]
+  ],
+  "RuntimeCharacteristics": {
+    "IsTerminating": true,
+    "ExecutionPathExecution": "ZeroOrMore"
+  }
 }

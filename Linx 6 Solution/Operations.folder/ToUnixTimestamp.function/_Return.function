@@ -1,0 +1,19 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Compiled:Int64",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "UnixTimeStampInteger",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:Int64"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "RuntimeCharacteristics": {
+    "IsTerminating": true,
+    "ExecutionPathExecution": "ZeroOrMore"
+  }
+}

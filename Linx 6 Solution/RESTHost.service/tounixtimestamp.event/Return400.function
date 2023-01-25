@@ -1,8 +1,8 @@
 {
   "Properties": [
     {
-      "Id": "Source",
-      "Type": "Generated:XLN2",
+      "Id": "Value",
+      "Type": "Generated:IWgy",
       "ValueUsage": "RuntimeRead",
       "Value": {
         "ParsedExpression": "{\"HttpContext\":{\"StatusCode\":400}, \"Response400\":{\"Error\":{\"LinxExpression\":\"[PARSED]\"}}}",
@@ -21,17 +21,10 @@
         ]
       },
       "ValueType": "Linx.JsonExpression"
-    },
-    {
-      "Id": "Target",
-      "Type": "Generated:XLN2",
-      "ValueUsage": "RuntimeWrite",
-      "Value": {
-        "Expression": "$.Result",
-        "CompiledExpression": "={0}",
-        "Type": "Generated:XLN2"
-      },
-      "ValueType": "Linx.CSharpExpression"
     }
-  ]
+  ],
+  "RuntimeCharacteristics": {
+    "IsTerminating": true,
+    "ExecutionPathExecution": "ZeroOrMore"
+  }
 }

@@ -1,14 +1,15 @@
 {
-  "ApplicationVersion": "6.1.0",
+  "ApplicationVersion": "6.4.3",
+  "SolutionVersion": 4,
   "Plugins": [
-    "twenty57.linx.plugins.database, 1.0.6",
-    "twenty57.linx.plugins.rest, 1.0.3",
-    "twenty57.linx.plugins.standard, 1.0.2",
-    "twenty57.linx.plugins.utilities, 1.0.2"
+    "twenty57.linx.plugins.database, 1.3.0",
+    "twenty57.linx.plugins.rest, 1.1.1",
+    "twenty57.linx.plugins.standard, 1.1.0",
+    "twenty57.linx.plugins.utilities, 1.1.0"
   ],
   "Dependencies": [
-    "twenty57.linx.solutiondependencies.compilation, 1.1.5",
-    "twenty57.linx.solutiondependencies.types, 1.1.0"
+    "twenty57.linx.solutiondependencies.compilation, 2.0.0",
+    "twenty57.linx.solutiondependencies.types, 1.2.0"
   ],
   "Items": [
     "Operations.folder",

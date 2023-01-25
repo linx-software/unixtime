@@ -1,0 +1,29 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Generated:br7Q",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"HttpContext\":{\"StatusCode\":200}, \"Response200\":{\"LinxExpression\":\"[PARSED]\"}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "Response200"
+            ],
+            "expression": {
+              "Expression": "FromUnixTimestamp.ToString(\"yyyy-MM-dd HH:mm:ss\")",
+              "CompiledExpression": "={0}.ToString(\"yyyy-MM-dd HH:mm:ss\")",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    }
+  ],
+  "RuntimeCharacteristics": {
+    "IsTerminating": true,
+    "ExecutionPathExecution": "ZeroOrMore"
+  }
+}

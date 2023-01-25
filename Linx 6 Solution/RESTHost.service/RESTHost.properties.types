@@ -7,7 +7,7 @@
         {
           "Id": "HttpContext",
           "Name": "HttpContext",
-          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null",
           "Access": "ReadWrite"
         },
         {
@@ -53,7 +53,7 @@
         {
           "Id": "HttpContext",
           "Name": "HttpContext",
-          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null",
           "Access": "ReadWrite"
         },
         {
@@ -133,7 +133,7 @@
         {
           "Id": "HttpContext",
           "Name": "HttpContext",
-          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null",
           "Access": "ReadWrite"
         },
         {
@@ -193,7 +193,7 @@
         {
           "Id": "HttpContext",
           "Name": "HttpContext",
-          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null",
           "Access": "ReadWrite"
         },
         {
@@ -239,7 +239,7 @@
         {
           "Id": "HttpContext",
           "Name": "HttpContext",
-          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null",
           "Access": "ReadWrite"
         },
         {
@@ -313,7 +313,7 @@
         {
           "Id": "HttpContext",
           "Name": "HttpContext",
-          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null",
           "Access": "ReadWrite"
         },
         {
